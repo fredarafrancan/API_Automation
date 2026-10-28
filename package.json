@@ -1,0 +1,15 @@
+{
+  "name": "api-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gherkin API tests for the fake JSON API",
+  "scripts": {
+    "test": "cucumber-js feature --require steps/**/*.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.0"
+  }
+}
